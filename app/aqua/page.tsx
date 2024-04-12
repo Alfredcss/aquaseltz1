@@ -36,7 +36,7 @@ export default function Home() {
         const invertedDistance = maxDistance - distance;
         
         // Almacenar los datos invertidos junto con el tiempo actual
-        setDistanceData(prevData => [...prevData, { time: getCurrentTime(), distance: invertedDistance }]);
+        //setDistanceData(prevData => [...prevData, { time: getCurrentTime(), distance: invertedDistance }]);
       }
     });
 
