@@ -2,19 +2,19 @@ const Navigation = () => {
   return (
     <ul className="flex items-center border-b bg-custom-blue font-montserrat">
       <li className="mr-1">
-        <a className="inline-block py-2 px-4 text-black hover:text-blue-700 font-semibold" href="..">Home</a>
+        <a className="inline-block py-2 px-4 text-white hover:text-blue-700 font-semibold" href="..">Home</a>
       </li>
       <li className="mr-1">
-        <a className="inline-block py-2 px-4 text-black hover:text-blue-700 font-semibold" href="./acerca">Acerca</a>
+        <a className="inline-block py-2 px-4 text-white hover:text-blue-700 font-semibold" href="./acerca">Acerca</a>
       </li>
       <li className="mr-1">
-        <a className="inline-block py-2 px-4 text-black hover:text-blue-700 font-semibold" href="./contactos">Contacto</a>
+        <a className="inline-block py-2 px-4 text-white hover:text-blue-700 font-semibold" href="./contactos">Contacto</a>
       </li>
       <li className="mr-1">
-        <a className="inline-block py-2 px-4 text-black hover:text-blue-700 font-semibold" href="./aqua">AquaSeltz</a>
+        <a className="inline-block py-2 px-4 text-white hover:text-blue-700 font-semibold" href="./aqua">AquaSeltz</a>
       </li>
       <li className="mr-1">
-        <a className="inline-block py-2 px-4 text-black hover:text-blue-700 font-semibold" href="./sobre">Sobre el Proyecto</a>
+        <a className="inline-block py-2 px-4 text-white hover:text-blue-700 font-semibold" href="./sobre">Sobre el Proyecto</a>
       </li>
       <li className="mr-6 text-right ml-96">
         {/* Aquí colocas la imagen de tu logo */}
